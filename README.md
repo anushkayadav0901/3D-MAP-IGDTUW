@@ -18,17 +18,26 @@ A web-based interactive 3D map of the IGDTUW campus, created using Three.js, GSA
 ## **Project Structure**
 
 3d-campus-map/
-│
-├── index.html           # Main HTML file for the webpage
-├── styles.css           # Styles for the webpage and 3D model layout
-├── script.js            # JavaScript handling 3D rendering and interactivity
+
+index.html           # Main HTML file for the webpage
+
+styles.css           # Styles for the webpage and 3D model layout
+
+script.js            # JavaScript handling 3D rendering and interactivity
+
 ├── models/              # Folder for storing 3D models (e.g., igdtuw campus model)
-│   └── igdtuw.glb       # 3D GLTF model of IGDTUW campus
+
+  └── igdtuw.glb       # 3D GLTF model of IGDTUW campus
+  
 ├── assets/              # Folder for storing images, icons, and other assets
-│   ├── logo.png         # Logo image (optional)
-│   └── icons/           # Icons for buttons or UI elements
-├── feedback/            # (Optional) Folder for feedback-related backend code
-└── README.md            # Project documentation
+
+   ├── logo.png         # Logo image 
+   
+  └── icons/           # Icons for buttons or UI elements
+  
+ feedback    # (Optional) Folder for feedback-related backend code
+ 
+ README.md            # Project documentation
 
 ---
 
@@ -94,7 +103,7 @@ This project is open-source and available under the MIT License.
 Acknowledgments
 
 	•	Thanks to the creators of Three.js, GSAP, and OrbitControls.js for providing powerful libraries that made this project possible.
-	•	3D model of the IGDTUW campus (replace with your actual model).
+	•	3D model of the IGDTUW campus ().
 
 Contact
 
