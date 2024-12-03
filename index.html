@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IGDTUW 3D Campus Map</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.152.2/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+  <div id="loading-screen">Loading IGDTUW Campus...</div>
+
+  <!-- Sidebar Navigation -->
+  <div id="sidebar">
+    <h1>IGDTUW Campus Map</h1>
+    <input type="text" id="search-box" placeholder="Search for a building..." />
+    <ul id="search-suggestions"></ul>
+    <button id="toggle-day-night">Day/Night Mode</button>
+    <button id="reset-navigation">Reset Navigation</button>
+  </div>
+
+  <!-- Search and Filter -->
+  <div id="search-container">
+    <input type="text" id="search-input" placeholder="Search for buildings..." />
+    <select id="filter-select">
+      <option value="all">All</option>
+      <option value="academic">Academic</option>
+      <option value="residential">Residential</option>
+    </select>
+  </div>
+
+  <!-- Tooltip -->
+  <div id="tooltip"></div>
+
+  <!-- Modal -->
+  <div id="info-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <!-- Feedback Form -->
+  <div id="feedback-form">
+    <h2>Feedback</h2>
+    <textarea id="feedback-text" placeholder="Enter your feedback here..."></textarea>
+    <button id="submit-feedback">Submit</button>
+  </div>
+
+  <!-- 3D Renderer -->
+  <script src="script.js"></script>
+</body>
+</html>
