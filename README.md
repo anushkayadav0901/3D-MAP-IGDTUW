@@ -96,20 +96,4 @@ Contributing
 
 Feel free to fork the project, create an issue, or submit a pull request. Contributions are welcome!
 
-Acknowledgments
 
-A big thank you to the contributors of this project:
-	•	Deepak Gupta (GitHub) – Project Lead, Developer, and Designer.
-	•	[Contributor Name 1] (GitHub) – 3D Model and Rendering Improvements.
-	•	[Contributor Name 2] (GitHub) – UI Design Enhancements and Bug Fixes.
-	•	[Contributor Name 3] (GitHub) – Feedback Form and Search Functionality Implementation.
-
-License
-
-This project is open-source and available under the MIT License.
-
-Contact
-
-If you have any questions or feedback, feel free to reach out to me at:
-	•	Email: [divi2749@gmail.com]
-	•	GitHub: https://github.com/divi-24
